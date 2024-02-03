@@ -52,6 +52,7 @@
                           <td>{{ $row ['username'] }}</td>
                           {{-- <td>{{ $row ['password'] }}</td> --}}
                           <td>{{ $row ['email'] }}</td>
+                          
                           <td class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-warning" type="button">
                               <span ><a href="{{ Route('user.edit', $row['id']) }}" style="color: #fff; text-decoration: none;"><i class="fas fa-solid fa-user-pen  me-2"></i>Edit</a></span>
