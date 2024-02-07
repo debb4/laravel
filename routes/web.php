@@ -21,7 +21,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 Route::get('/home', [homecontroller::class, 'index'])->name('home');
 Route::get('/about', function () {
